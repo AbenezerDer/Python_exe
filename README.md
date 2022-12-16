@@ -1,2 +1,2 @@
 # Python_exe
-lear to program 
+learn to program python
