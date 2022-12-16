@@ -12,13 +12,17 @@ for  i in range(1, 21):
 # print out the earnigns after a 10 year period 
 
 # Ask for the money invested + the interest rate 
-
+money = input("How much to invest : ")
+interest_rate = input("Interest rate : ")
 # convert the value to a float
+money = float(money)
 
 # convert value to a float and round the percentage rate by 2 digits
+interest_rate = float(interest_rate)* .01
 
 # cycle through 10 year using a for loop and range from 0 to 9
-
+for i in range(10):
+    money = money + (money * interest_rate)
 # output the results
-
+print("Investment after 10 years : {:.2f}".format(money))
     
