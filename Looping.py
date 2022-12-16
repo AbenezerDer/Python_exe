@@ -15,6 +15,10 @@ for  i in range(1, 21):
 
 # convert the value to a float
 
-#
+# convert value to a float and round the percentage rate by 2 digits
+
+# cycle through 10 year using a for loop and range from 0 to 9
+
+# output the results
 
     
