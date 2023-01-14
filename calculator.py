@@ -9,10 +9,10 @@ print(z)
 
 # float
 
-x = input("what's x? ")
-y = input("what's y? ")
+x = float(input("what's x? "))
+y = float(input("what's y? "))
 
-# we use round for the system python to choose weather it is float or integer 
+# we use round for the system python to choose weather it is float or integer and make it an aproximate number 
 # we use f to insert the , or . after three zeros 
 z = round(x + y)
-print(f"{z:,}")
+print(z)
